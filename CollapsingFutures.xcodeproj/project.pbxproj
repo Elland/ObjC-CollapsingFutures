@@ -588,7 +588,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/UnionFind-iOS10.1",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/CollapsingFuturesFramework/CollapsingFuturesFramework.h";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.CollapsingFuturesFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -637,7 +636,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/UnionFind-iOS10.1",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/CollapsingFuturesFramework/CollapsingFuturesFramework.h";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.CollapsingFuturesFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
