@@ -22,6 +22,21 @@
 		9F23466A1DE7203F003C6FCA /* TOCFuture+MoreContructors.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A019C9180774B600A052A6 /* TOCFuture+MoreContructors.m */; };
 		9F23466C1DE7203F003C6FCA /* TOCFutureAndSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A019C7180774B600A052A6 /* TOCFutureAndSource.m */; };
 		9F23466E1DE7203F003C6FCA /* TOCTimeout.m in Sources */ = {isa = PBXBuildFile; fileRef = A1209B52181084FD00D6831C /* TOCTimeout.m */; };
+		9F2346811DE7246F003C6FCA /* CollapsingFutures.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4235818C2760D00A15F74 /* CollapsingFutures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F2346821DE7246F003C6FCA /* TOCInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B3D180F4A7800D6831C /* TOCInternal.h */; };
+		9F2346831DE7246F003C6FCA /* TOCInternal_Array+Functional.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B4D180F4F4600D6831C /* TOCInternal_Array+Functional.h */; };
+		9F2346841DE7246F003C6FCA /* TOCInternal_BlockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B6BF241810F04900226FE5 /* TOCInternal_BlockObject.h */; };
+		9F2346851DE7246F003C6FCA /* TOCInternal_OnDeallocObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A109021F18613E8F004B7A56 /* TOCInternal_OnDeallocObject.h */; };
+		9F2346861DE7246F003C6FCA /* TOCInternal_Racer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B41180F4A9300D6831C /* TOCInternal_Racer.h */; };
+		9F2346871DE7246F003C6FCA /* NSArray+TOCFuture.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B1E1808696100D6831C /* NSArray+TOCFuture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F2346881DE7246F003C6FCA /* TOCCancelToken+MoreConstructors.h in Headers */ = {isa = PBXBuildFile; fileRef = A109021B18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F2346891DE7246F003C6FCA /* TOCCancelTokenAndSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B25180888E800D6831C /* TOCCancelTokenAndSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F23468A1DE7246F003C6FCA /* TOCFuture+MoreContinuations.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B2B180DD34F00D6831C /* TOCFuture+MoreContinuations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F23468B1DE7246F003C6FCA /* TOCFuture+MoreContructors.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A019C8180774B600A052A6 /* TOCFuture+MoreContructors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F23468C1DE7246F003C6FCA /* TOCFutureAndSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A019C6180774B600A052A6 /* TOCFutureAndSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F23468D1DE7246F003C6FCA /* TOCTimeout.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B51181084FD00D6831C /* TOCTimeout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F23468E1DE7246F003C6FCA /* TOCTypeDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B45180F4B1F00D6831C /* TOCTypeDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F23468F1DE7246F003C6FCA /* TwistedOakCollapsingFutures.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A019CA180774B600A052A6 /* TwistedOakCollapsingFutures.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A109021D18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m in Sources */ = {isa = PBXBuildFile; fileRef = A109021C18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m */; };
 		A109022118613E8F004B7A56 /* TOCInternal_OnDeallocObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A109022018613E8F004B7A56 /* TOCInternal_OnDeallocObject.m */; };
 		A1090224186145ED004B7A56 /* TOCCancelToken+MoreConstructorsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1090223186145ED004B7A56 /* TOCCancelToken+MoreConstructorsTest.m */; };
@@ -289,6 +304,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2346541DE716B6003C6FCA /* CollapsingFuturesFramework.h in Headers */,
+				9F2346811DE7246F003C6FCA /* CollapsingFutures.h in Headers */,
+				9F2346871DE7246F003C6FCA /* NSArray+TOCFuture.h in Headers */,
+				9F2346881DE7246F003C6FCA /* TOCCancelToken+MoreConstructors.h in Headers */,
+				9F2346891DE7246F003C6FCA /* TOCCancelTokenAndSource.h in Headers */,
+				9F23468A1DE7246F003C6FCA /* TOCFuture+MoreContinuations.h in Headers */,
+				9F23468B1DE7246F003C6FCA /* TOCFuture+MoreContructors.h in Headers */,
+				9F23468C1DE7246F003C6FCA /* TOCFutureAndSource.h in Headers */,
+				9F23468D1DE7246F003C6FCA /* TOCTimeout.h in Headers */,
+				9F23468E1DE7246F003C6FCA /* TOCTypeDefs.h in Headers */,
+				9F23468F1DE7246F003C6FCA /* TwistedOakCollapsingFutures.h in Headers */,
+				9F2346831DE7246F003C6FCA /* TOCInternal_Array+Functional.h in Headers */,
+				9F2346841DE7246F003C6FCA /* TOCInternal_BlockObject.h in Headers */,
+				9F2346821DE7246F003C6FCA /* TOCInternal.h in Headers */,
+				9F2346851DE7246F003C6FCA /* TOCInternal_OnDeallocObject.h in Headers */,
+				9F2346861DE7246F003C6FCA /* TOCInternal_Racer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
