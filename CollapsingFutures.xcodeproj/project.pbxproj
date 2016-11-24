@@ -11,6 +11,17 @@
 		8B68AC825923342FC3B36821 /* libPods-CollapsingFuturesLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A918908E9EF9E7D75EAEEE1C /* libPods-CollapsingFuturesLib.a */; };
 		9F2346541DE716B6003C6FCA /* CollapsingFuturesFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2346521DE716B6003C6FCA /* CollapsingFuturesFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F2346591DE7173E003C6FCA /* libUnionFind-iOS10.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2346581DE7173E003C6FCA /* libUnionFind-iOS10.1.a */; };
+		9F23465A1DE7203F003C6FCA /* TOCInternal_Array+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = A1209B4E180F4F4600D6831C /* TOCInternal_Array+Functional.m */; };
+		9F23465C1DE7203F003C6FCA /* TOCInternal_BlockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6BF251810F04900226FE5 /* TOCInternal_BlockObject.m */; };
+		9F23465E1DE7203F003C6FCA /* TOCInternal_OnDeallocObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A109022018613E8F004B7A56 /* TOCInternal_OnDeallocObject.m */; };
+		9F2346601DE7203F003C6FCA /* TOCInternal_Racer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1209B42180F4A9300D6831C /* TOCInternal_Racer.m */; };
+		9F2346621DE7203F003C6FCA /* NSArray+TOCFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = A1209B1F1808696100D6831C /* NSArray+TOCFuture.m */; };
+		9F2346641DE7203F003C6FCA /* TOCCancelToken+MoreConstructors.m in Sources */ = {isa = PBXBuildFile; fileRef = A109021C18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m */; };
+		9F2346661DE7203F003C6FCA /* TOCCancelTokenAndSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A1209B26180888E800D6831C /* TOCCancelTokenAndSource.m */; };
+		9F2346681DE7203F003C6FCA /* TOCFuture+MoreContinuations.m in Sources */ = {isa = PBXBuildFile; fileRef = A1209B2C180DD34F00D6831C /* TOCFuture+MoreContinuations.m */; };
+		9F23466A1DE7203F003C6FCA /* TOCFuture+MoreContructors.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A019C9180774B600A052A6 /* TOCFuture+MoreContructors.m */; };
+		9F23466C1DE7203F003C6FCA /* TOCFutureAndSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A019C7180774B600A052A6 /* TOCFutureAndSource.m */; };
+		9F23466E1DE7203F003C6FCA /* TOCTimeout.m in Sources */ = {isa = PBXBuildFile; fileRef = A1209B52181084FD00D6831C /* TOCTimeout.m */; };
 		A109021D18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m in Sources */ = {isa = PBXBuildFile; fileRef = A109021C18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m */; };
 		A109022118613E8F004B7A56 /* TOCInternal_OnDeallocObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A109022018613E8F004B7A56 /* TOCInternal_OnDeallocObject.m */; };
 		A1090224186145ED004B7A56 /* TOCCancelToken+MoreConstructorsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1090223186145ED004B7A56 /* TOCCancelToken+MoreConstructorsTest.m */; };
@@ -476,6 +487,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F23465A1DE7203F003C6FCA /* TOCInternal_Array+Functional.m in Sources */,
+				9F23465C1DE7203F003C6FCA /* TOCInternal_BlockObject.m in Sources */,
+				9F23465E1DE7203F003C6FCA /* TOCInternal_OnDeallocObject.m in Sources */,
+				9F2346601DE7203F003C6FCA /* TOCInternal_Racer.m in Sources */,
+				9F2346621DE7203F003C6FCA /* NSArray+TOCFuture.m in Sources */,
+				9F2346641DE7203F003C6FCA /* TOCCancelToken+MoreConstructors.m in Sources */,
+				9F2346661DE7203F003C6FCA /* TOCCancelTokenAndSource.m in Sources */,
+				9F2346681DE7203F003C6FCA /* TOCFuture+MoreContinuations.m in Sources */,
+				9F23466A1DE7203F003C6FCA /* TOCFuture+MoreContructors.m in Sources */,
+				9F23466C1DE7203F003C6FCA /* TOCFutureAndSource.m in Sources */,
+				9F23466E1DE7203F003C6FCA /* TOCTimeout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
