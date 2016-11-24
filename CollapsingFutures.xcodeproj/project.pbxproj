@@ -329,12 +329,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F2346571DE716B6003C6FCA /* Build configuration list for PBXNativeTarget "CollapsingFutures" */;
 			buildPhases = (
-				DE8DA45E0B761AEC32776617 /* [CP] Check Pods Manifest.lock */,
 				9F23464B1DE716B6003C6FCA /* Sources */,
 				9F23464C1DE716B6003C6FCA /* Frameworks */,
 				9F23464D1DE716B6003C6FCA /* Headers */,
 				9F23464E1DE716B6003C6FCA /* Resources */,
-				609338C332AA48B25B36A4EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -437,21 +435,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		609338C332AA48B25B36A4EC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollapsingFutures/Pods-CollapsingFutures-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9EEE7B09509683C651929038 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,21 +476,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollapsingFuturesLib/Pods-CollapsingFuturesLib-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DE8DA45E0B761AEC32776617 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
