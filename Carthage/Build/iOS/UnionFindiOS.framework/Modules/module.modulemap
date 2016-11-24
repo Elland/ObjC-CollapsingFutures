@@ -1,0 +1,6 @@
+framework module UnionFindiOS {
+  umbrella header "UnionFindiOS.h"
+
+  export *
+  module * { export * }
+}

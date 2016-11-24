@@ -1,7 +1,7 @@
 #import "TOCFutureAndSource.h"
 #import "TOCInternal.h"
 #import "TOCTimeout.h"
-#import "UnionFind.h"
+#import <UnionFindiOS/UnionFindiOS.h>
 
 static NSObject* getSharedCycleDetectionLock() {
     static dispatch_once_t once;

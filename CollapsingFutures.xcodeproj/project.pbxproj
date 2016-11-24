@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F7105EAD938FC06707B7D65 /* libPods-CollapsingFutures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6317019E8C57341DA31289D /* libPods-CollapsingFutures.a */; };
 		8B68AC825923342FC3B36821 /* libPods-CollapsingFuturesLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A918908E9EF9E7D75EAEEE1C /* libPods-CollapsingFuturesLib.a */; };
 		9F2346541DE716B6003C6FCA /* CollapsingFuturesFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2346521DE716B6003C6FCA /* CollapsingFuturesFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F2346591DE7173E003C6FCA /* libUnionFind-iOS10.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2346581DE7173E003C6FCA /* libUnionFind-iOS10.1.a */; };
 		9F23465A1DE7203F003C6FCA /* TOCInternal_Array+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = A1209B4E180F4F4600D6831C /* TOCInternal_Array+Functional.m */; };
 		9F23465C1DE7203F003C6FCA /* TOCInternal_BlockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6BF251810F04900226FE5 /* TOCInternal_BlockObject.m */; };
 		9F23465E1DE7203F003C6FCA /* TOCInternal_OnDeallocObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A109022018613E8F004B7A56 /* TOCInternal_OnDeallocObject.m */; };
@@ -37,6 +35,11 @@
 		9F23468D1DE7246F003C6FCA /* TOCTimeout.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B51181084FD00D6831C /* TOCTimeout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F23468E1DE7246F003C6FCA /* TOCTypeDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B45180F4B1F00D6831C /* TOCTypeDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F23468F1DE7246F003C6FCA /* TwistedOakCollapsingFutures.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A019CA180774B600A052A6 /* TwistedOakCollapsingFutures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F2346951DE728E9003C6FCA /* 6C297186-B535-34E3-B521-EABDABD4C4B0.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2346911DE728E9003C6FCA /* 6C297186-B535-34E3-B521-EABDABD4C4B0.bcsymbolmap */; };
+		9F2346961DE728E9003C6FCA /* E2467388-D43B-3BFF-B511-2E1466424932.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2346921DE728E9003C6FCA /* E2467388-D43B-3BFF-B511-2E1466424932.bcsymbolmap */; };
+		9F2346981DE728E9003C6FCA /* UnionFindiOS.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2346941DE728E9003C6FCA /* UnionFindiOS.framework.dSYM */; };
+		9F23469A1DE728F9003C6FCA /* UnionFindiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2346931DE728E9003C6FCA /* UnionFindiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F23469B1DE72A0F003C6FCA /* UnionFindiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2346931DE728E9003C6FCA /* UnionFindiOS.framework */; };
 		A109021D18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m in Sources */ = {isa = PBXBuildFile; fileRef = A109021C18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m */; };
 		A109022118613E8F004B7A56 /* TOCInternal_OnDeallocObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A109022018613E8F004B7A56 /* TOCInternal_OnDeallocObject.m */; };
 		A1090224186145ED004B7A56 /* TOCCancelToken+MoreConstructorsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1090223186145ED004B7A56 /* TOCCancelToken+MoreConstructorsTest.m */; };
@@ -83,6 +86,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		9F2346991DE728F0003C6FCA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9F23469A1DE728F9003C6FCA /* UnionFindiOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A19E0C3617DBB27B00A5FD69 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,12 +109,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		606B045FBE1AEAFD9A60DCB7 /* Pods-CollapsingFutures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsingFutures.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollapsingFutures/Pods-CollapsingFutures.debug.xcconfig"; sourceTree = "<group>"; };
 		72EA2CFCD6329AB5694A5D52 /* Pods-CollapsingFuturesLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsingFuturesLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollapsingFuturesLib/Pods-CollapsingFuturesLib.debug.xcconfig"; sourceTree = "<group>"; };
 		9F2346501DE716B6003C6FCA /* CollapsingFutures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollapsingFutures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2346521DE716B6003C6FCA /* CollapsingFuturesFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollapsingFuturesFramework.h; sourceTree = "<group>"; };
 		9F2346531DE716B6003C6FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F2346581DE7173E003C6FCA /* libUnionFind-iOS10.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUnionFind-iOS10.1.a"; path = "Pods/../build/Debug-iphoneos/UnionFind-iOS10.1/libUnionFind-iOS10.1.a"; sourceTree = "<group>"; };
+		9F2346911DE728E9003C6FCA /* 6C297186-B535-34E3-B521-EABDABD4C4B0.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "6C297186-B535-34E3-B521-EABDABD4C4B0.bcsymbolmap"; path = "Carthage/Build/iOS/6C297186-B535-34E3-B521-EABDABD4C4B0.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2346921DE728E9003C6FCA /* E2467388-D43B-3BFF-B511-2E1466424932.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "E2467388-D43B-3BFF-B511-2E1466424932.bcsymbolmap"; path = "Carthage/Build/iOS/E2467388-D43B-3BFF-B511-2E1466424932.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2346931DE728E9003C6FCA /* UnionFindiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnionFindiOS.framework; path = Carthage/Build/iOS/UnionFindiOS.framework; sourceTree = SOURCE_ROOT; };
+		9F2346941DE728E9003C6FCA /* UnionFindiOS.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = UnionFindiOS.framework.dSYM; path = Carthage/Build/iOS/UnionFindiOS.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		A109021B18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TOCCancelToken+MoreConstructors.h"; sourceTree = "<group>"; };
 		A109021C18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TOCCancelToken+MoreConstructors.m"; sourceTree = "<group>"; };
 		A109021F18613E8F004B7A56 /* TOCInternal_OnDeallocObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCInternal_OnDeallocObject.h; sourceTree = "<group>"; };
@@ -143,7 +160,6 @@
 		A6317019E8C57341DA31289D /* libPods-CollapsingFutures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CollapsingFutures.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A918908E9EF9E7D75EAEEE1C /* libPods-CollapsingFuturesLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CollapsingFuturesLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD8DA6D19400F16002D37B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C982485DB1A023340A6F6723 /* Pods-CollapsingFutures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsingFutures.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollapsingFutures/Pods-CollapsingFutures.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2346591DE7173E003C6FCA /* libUnionFind-iOS10.1.a in Frameworks */,
-				4F7105EAD938FC06707B7D65 /* libPods-CollapsingFutures.a in Frameworks */,
+				9F23469B1DE72A0F003C6FCA /* UnionFindiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,8 +195,6 @@
 		17E75C93626103409BB97DFF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				606B045FBE1AEAFD9A60DCB7 /* Pods-CollapsingFutures.debug.xcconfig */,
-				C982485DB1A023340A6F6723 /* Pods-CollapsingFutures.release.xcconfig */,
 				72EA2CFCD6329AB5694A5D52 /* Pods-CollapsingFuturesLib.debug.xcconfig */,
 				A543A9FEBDAF34337E93480E /* Pods-CollapsingFuturesLib.release.xcconfig */,
 			);
@@ -193,6 +206,10 @@
 			children = (
 				9F2346521DE716B6003C6FCA /* CollapsingFuturesFramework.h */,
 				9F2346531DE716B6003C6FCA /* Info.plist */,
+				9F2346911DE728E9003C6FCA /* 6C297186-B535-34E3-B521-EABDABD4C4B0.bcsymbolmap */,
+				9F2346921DE728E9003C6FCA /* E2467388-D43B-3BFF-B511-2E1466424932.bcsymbolmap */,
+				9F2346931DE728E9003C6FCA /* UnionFindiOS.framework */,
+				9F2346941DE728E9003C6FCA /* UnionFindiOS.framework.dSYM */,
 			);
 			path = CollapsingFuturesFramework;
 			sourceTree = "<group>";
@@ -333,6 +350,7 @@
 				9F23464C1DE716B6003C6FCA /* Frameworks */,
 				9F23464D1DE716B6003C6FCA /* Headers */,
 				9F23464E1DE716B6003C6FCA /* Resources */,
+				9F2346991DE728F0003C6FCA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -422,6 +440,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2346981DE728E9003C6FCA /* UnionFindiOS.framework.dSYM in Resources */,
+				9F2346951DE728E9003C6FCA /* 6C297186-B535-34E3-B521-EABDABD4C4B0.bcsymbolmap in Resources */,
+				9F2346961DE728E9003C6FCA /* E2467388-D43B-3BFF-B511-2E1466424932.bcsymbolmap in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,7 +577,6 @@
 /* Begin XCBuildConfiguration section */
 		9F2346551DE716B6003C6FCA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 606B045FBE1AEAFD9A60DCB7 /* Pods-CollapsingFutures.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -577,18 +597,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = CollapsingFuturesFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/UnionFind-iOS10.1",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_CFLAGS = "";
+				PODS_BUILD_DIR = "";
+				PODS_CONFIGURATION_BUILD_DIR = "";
+				PODS_ROOT = "";
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.CollapsingFuturesFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -603,7 +630,6 @@
 		};
 		9F2346561DE716B6003C6FCA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C982485DB1A023340A6F6723 /* Pods-CollapsingFutures.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -625,18 +651,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = CollapsingFuturesFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/UnionFind-iOS10.1",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				PODS_BUILD_DIR = "";
+				PODS_CONFIGURATION_BUILD_DIR = "";
+				PODS_ROOT = "";
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.CollapsingFuturesFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
