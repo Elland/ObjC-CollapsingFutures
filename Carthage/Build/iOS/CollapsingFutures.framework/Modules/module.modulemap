@@ -1,0 +1,6 @@
+framework module CollapsingFutures {
+  umbrella header "CollapsingFutures.h"
+
+  export *
+  module * { export * }
+}

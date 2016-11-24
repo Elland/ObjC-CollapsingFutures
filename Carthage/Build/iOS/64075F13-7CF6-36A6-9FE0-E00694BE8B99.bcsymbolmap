@@ -1,0 +1,345 @@
+BCSymbolMap Version: 2.0
+-[NSArray(TOCInternal_Functional) map:]
+-[NSArray(TOCInternal_Functional) where:]
+-[NSArray(TOCInternal_Functional) allItemsSatisfy:]
+-[NSArray(TOCInternal_Functional) allItemsAreKindOfClass:]
+___58-[NSArray(TOCInternal_Functional) allItemsAreKindOfClass:]_block_invoke
+___block_descriptor_tmp
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/internal/TOCInternal_Array+Functional.m
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures
+__58-[NSArray(TOCInternal_Functional) allItemsAreKindOfClass:]_block_invoke
++[TOCInternal_BlockObject voidBlock:]
+-[TOCInternal_BlockObject run]
+-[TOCInternal_BlockObject runSelector]
++[TOCInternal_BlockObject performBlock:onThread:]
++[TOCInternal_BlockObject performBlockOnNewThread:]
+-[TOCInternal_BlockObject .cxx_destruct]
+_OBJC_IVAR_$_TOCInternal_BlockObject.block
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/internal/TOCInternal_BlockObject.m
++[TOCInternal_OnDeallocObject onDeallocDo:]
+-[TOCInternal_OnDeallocObject poke]
+-[TOCInternal_OnDeallocObject cancelDeallocAction]
+-[TOCInternal_OnDeallocObject dealloc]
+-[TOCInternal_OnDeallocObject .cxx_destruct]
+_OBJC_IVAR_$_TOCInternal_OnDeallocObject.block
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/internal/TOCInternal_OnDeallocObject.m
++[TOCInternal_Racer racerStartedFrom:until:]
++[TOCInternal_Racer asyncRace:until:]
+___37+[TOCInternal_Racer asyncRace:until:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___37+[TOCInternal_Racer asyncRace:until:]_block_invoke.32
+___37+[TOCInternal_Racer asyncRace:until:]_block_invoke_2
+___copy_helper_block_.45
+___destroy_helper_block_.46
+___37+[TOCInternal_Racer asyncRace:until:]_block_invoke.53
+___copy_helper_block_.56
+___destroy_helper_block_.57
+___37+[TOCInternal_Racer asyncRace:until:]_block_invoke.62
+-[TOCInternal_Racer canceller]
+-[TOCInternal_Racer futureResult]
+-[TOCInternal_Racer .cxx_destruct]
+_OBJC_IVAR_$_TOCInternal_Racer.canceller
+_OBJC_IVAR_$_TOCInternal_Racer.futureResult
+___block_descriptor_tmp.42
+___block_literal_global
+___block_descriptor_tmp.48
+___block_descriptor_tmp.59
+___block_descriptor_tmp.63
+___block_literal_global.64
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/internal/TOCInternal_Racer.m
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/internal/TOCInternal_Racer.h
+__37+[TOCInternal_Racer asyncRace:until:]_block_invoke.62
+__destroy_helper_block_
+__copy_helper_block_
+__37+[TOCInternal_Racer asyncRace:until:]_block_invoke.53
+__37+[TOCInternal_Racer asyncRace:until:]_block_invoke_2
+__37+[TOCInternal_Racer asyncRace:until:]_block_invoke.32
+__37+[TOCInternal_Racer asyncRace:until:]_block_invoke
+-[NSArray(TOCFuture) toc_finallyAll]
+-[NSArray(TOCFuture) toc_finallyAllUnless:]
+___43-[NSArray(TOCFuture) toc_finallyAllUnless:]_block_invoke
+___43-[NSArray(TOCFuture) toc_finallyAllUnless:]_block_invoke.31
+___copy_helper_block_.34
+___destroy_helper_block_.35
+-[NSArray(TOCFuture) toc_thenAll]
+-[NSArray(TOCFuture) toc_thenAllUnless:]
+___40-[NSArray(TOCFuture) toc_thenAllUnless:]_block_invoke
+-[NSArray(TOCFuture) toc_orderedByCompletion]
+-[NSArray(TOCFuture) toc_orderedByCompletionUnless:]
+___52-[NSArray(TOCFuture) toc_orderedByCompletionUnless:]_block_invoke
+___copy_helper_block_.64
+___destroy_helper_block_.65
+___52-[NSArray(TOCFuture) toc_orderedByCompletionUnless:]_block_invoke.72
+-[NSArray(TOCFuture) toc_raceForWinnerLastingUntil:]
+___block_descriptor_tmp.36
+___block_descriptor_tmp.53
+___block_descriptor_tmp.67
+___block_descriptor_tmp.74
+___block_literal_global.75
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/NSArray+TOCFuture.m
+__52-[NSArray(TOCFuture) toc_orderedByCompletionUnless:]_block_invoke.72
+__52-[NSArray(TOCFuture) toc_orderedByCompletionUnless:]_block_invoke
+__40-[NSArray(TOCFuture) toc_thenAllUnless:]_block_invoke
+__43-[NSArray(TOCFuture) toc_finallyAllUnless:]_block_invoke.31
+__43-[NSArray(TOCFuture) toc_finallyAllUnless:]_block_invoke
++[TOCCancelToken(MoreConstructors) matchFirstToCancelBetween:and:]
+___66+[TOCCancelToken(MoreConstructors) matchFirstToCancelBetween:and:]_block_invoke
++[TOCCancelToken(MoreConstructors) matchLastToCancelBetween:and:]
+___65+[TOCCancelToken(MoreConstructors) matchLastToCancelBetween:and:]_block_invoke
+___copy_helper_block_.11
+___destroy_helper_block_.12
+___65+[TOCCancelToken(MoreConstructors) matchLastToCancelBetween:and:]_block_invoke.17
+___copy_helper_block_.20
+___destroy_helper_block_.21
+___65+[TOCCancelToken(MoreConstructors) matchLastToCancelBetween:and:]_block_invoke.23
+___copy_helper_block_.24
+___destroy_helper_block_.25
+___65+[TOCCancelToken(MoreConstructors) matchLastToCancelBetween:and:]_block_invoke.27
+___65+[TOCCancelToken(MoreConstructors) matchLastToCancelBetween:and:]_block_invoke_2
+___copy_helper_block_.28
+___destroy_helper_block_.29
+___copy_helper_block_.33
+___destroy_helper_block_.34
+___block_descriptor_tmp.13
+___block_descriptor_tmp.22
+___block_descriptor_tmp.26
+___block_descriptor_tmp.30
+___block_descriptor_tmp.35
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/TOCCancelToken+MoreConstructors.m
+__65+[TOCCancelToken(MoreConstructors) matchLastToCancelBetween:and:]_block_invoke_2
+__65+[TOCCancelToken(MoreConstructors) matchLastToCancelBetween:and:]_block_invoke.27
+__65+[TOCCancelToken(MoreConstructors) matchLastToCancelBetween:and:]_block_invoke.23
+__65+[TOCCancelToken(MoreConstructors) matchLastToCancelBetween:and:]_block_invoke.17
+__65+[TOCCancelToken(MoreConstructors) matchLastToCancelBetween:and:]_block_invoke
+__66+[TOCCancelToken(MoreConstructors) matchFirstToCancelBetween:and:]_block_invoke
++[TOCCancelToken cancelledToken]
+___32+[TOCCancelToken cancelledToken]_block_invoke
++[TOCCancelToken immortalToken]
+___31+[TOCCancelToken immortalToken]_block_invoke
++[TOCCancelToken _ForSource_cancellableToken]
+-[TOCCancelToken _ForSource_tryImmortalize]
+-[TOCCancelToken _ForSource_tryCancel]
+-[TOCCancelToken state]
+-[TOCCancelToken isAlreadyCancelled]
+-[TOCCancelToken canStillBeCancelled]
+-[TOCCancelToken _preserveMainThreadness:]
+___42-[TOCCancelToken _preserveMainThreadness:]_block_invoke
+-[TOCCancelToken _preserveMainThreadness:andCheck:]
+___51-[TOCCancelToken _preserveMainThreadness:andCheck:]_block_invoke
+___copy_helper_block_.30
+___destroy_helper_block_.31
+-[TOCCancelToken whenCancelledDo:]
+-[TOCCancelToken _removable_whenSettledDo:]
+___43-[TOCCancelToken _removable_whenSettledDo:]_block_invoke
+___copy_helper_block_.50
+___destroy_helper_block_.51
+-[TOCCancelToken whenCancelledDo:unless:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___41-[TOCCancelToken whenCancelledDo:unless:]_block_invoke
+___copy_helper_block_.55
+___destroy_helper_block_.56
+___41-[TOCCancelToken whenCancelledDo:unless:]_block_invoke.60
+___copy_helper_block_.61
+___destroy_helper_block_.62
+___41-[TOCCancelToken whenCancelledDo:unless:]_block_invoke.66
+___copy_helper_block_.67
+___destroy_helper_block_.68
+-[TOCCancelToken description]
+-[TOCCancelToken .cxx_destruct]
+-[TOCCancelTokenSource init]
++[TOCCancelTokenSource cancelTokenSourceUntil:]
+___47+[TOCCancelTokenSource cancelTokenSourceUntil:]_block_invoke
+___copy_helper_block_.107
+___destroy_helper_block_.108
+-[TOCCancelTokenSource dealloc]
+-[TOCCancelTokenSource cancel]
+-[TOCCancelTokenSource tryCancel]
+-[TOCCancelTokenSource description]
+-[TOCCancelTokenSource token]
+-[TOCCancelTokenSource .cxx_destruct]
+_cancelledToken.once
+_cancelledToken.token
+_OBJC_IVAR_$_TOCCancelToken._state
+_immortalToken.once
+_immortalToken.token
+___block_descriptor_tmp.3
+___block_literal_global.4
+_OBJC_IVAR_$_TOCCancelToken._cancelHandlers
+_OBJC_IVAR_$_TOCCancelToken._removableSettledHandlers
+___block_descriptor_tmp.27
+___block_descriptor_tmp.32
+___block_descriptor_tmp.52
+___block_descriptor_tmp.57
+___block_descriptor_tmp.69
+_OBJC_IVAR_$_TOCCancelTokenSource.token
+___block_descriptor_tmp.109
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/TOCCancelTokenAndSource.m
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/TOCCancelTokenAndSource.h
+__47+[TOCCancelTokenSource cancelTokenSourceUntil:]_block_invoke
+__41-[TOCCancelToken whenCancelledDo:unless:]_block_invoke.66
+__41-[TOCCancelToken whenCancelledDo:unless:]_block_invoke.60
+__41-[TOCCancelToken whenCancelledDo:unless:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__43-[TOCCancelToken _removable_whenSettledDo:]_block_invoke
+__51-[TOCCancelToken _preserveMainThreadness:andCheck:]_block_invoke
+__42-[TOCCancelToken _preserveMainThreadness:]_block_invoke
+__31+[TOCCancelToken immortalToken]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/usr/include/dispatch/once.h
+__32+[TOCCancelToken cancelledToken]_block_invoke
+-[TOCFuture(MoreContinuations) finallyDo:]
+-[TOCFuture(MoreContinuations) thenDo:]
+-[TOCFuture(MoreContinuations) catchDo:]
+-[TOCFuture(MoreContinuations) finally:]
+-[TOCFuture(MoreContinuations) then:]
+-[TOCFuture(MoreContinuations) catch:]
+-[TOCFuture(MoreContinuations) unless:]
+___39-[TOCFuture(MoreContinuations) unless:]_block_invoke
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/TOCFuture+MoreContinuations.m
+__39-[TOCFuture(MoreContinuations) unless:]_block_invoke
++[TOCFuture(MoreConstructors) futureWithTimeoutFailure]
++[TOCFuture(MoreConstructors) futureWithCancelFailure]
++[TOCFuture(MoreConstructors) futureFromOperation:dispatchedOnQueue:]
+___69+[TOCFuture(MoreConstructors) futureFromOperation:dispatchedOnQueue:]_block_invoke
++[TOCFuture(MoreConstructors) futureFromOperation:invokedOnThread:]
+___67+[TOCFuture(MoreConstructors) futureFromOperation:invokedOnThread:]_block_invoke
++[TOCFuture(MoreConstructors) futureWithResult:afterDelay:]
++[TOCFuture(MoreConstructors) futureWithResult:afterDelay:unless:]
+___66+[TOCFuture(MoreConstructors) futureWithResult:afterDelay:unless:]_block_invoke
+___copy_helper_block_.43
+___destroy_helper_block_.44
+___66+[TOCFuture(MoreConstructors) futureWithResult:afterDelay:unless:]_block_invoke.46
+___copy_helper_block_.49
+___destroy_helper_block_.50
++[TOCFuture(MoreConstructors) futureFromUntilOperation:withOperationTimeout:until:]
+___83+[TOCFuture(MoreConstructors) futureFromUntilOperation:withOperationTimeout:until:]_block_invoke
+___83+[TOCFuture(MoreConstructors) futureFromUntilOperation:withOperationTimeout:until:]_block_invoke_2
+___83+[TOCFuture(MoreConstructors) futureFromUntilOperation:withOperationTimeout:until:]_block_invoke_3
+___copy_helper_block_.71
+___destroy_helper_block_.72
+___83+[TOCFuture(MoreConstructors) futureFromUntilOperation:withOperationTimeout:until:]_block_invoke.76
++[TOCFuture(MoreConstructors) futureFromUnlessOperation:withTimeout:unless:]
+___76+[TOCFuture(MoreConstructors) futureFromUnlessOperation:withTimeout:unless:]_block_invoke
+___copy_helper_block_.92
+___destroy_helper_block_.93
++[TOCFuture(MoreConstructors) futureFromUnlessOperation:withTimeout:]
+___block_descriptor_tmp.45
+___block_descriptor_tmp.51
+___block_descriptor_tmp.66
+___block_descriptor_tmp.68
+___block_descriptor_tmp.73
+___block_descriptor_tmp.80
+___block_literal_global.81
+___block_descriptor_tmp.95
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/TOCFuture+MoreContructors.m
+__inline_isnand
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/usr/include/math.h
+__76+[TOCFuture(MoreConstructors) futureFromUnlessOperation:withTimeout:unless:]_block_invoke
+__83+[TOCFuture(MoreConstructors) futureFromUntilOperation:withOperationTimeout:until:]_block_invoke.76
+__83+[TOCFuture(MoreConstructors) futureFromUntilOperation:withOperationTimeout:until:]_block_invoke_3
+__83+[TOCFuture(MoreConstructors) futureFromUntilOperation:withOperationTimeout:until:]_block_invoke_2
+__83+[TOCFuture(MoreConstructors) futureFromUntilOperation:withOperationTimeout:until:]_block_invoke
+__66+[TOCFuture(MoreConstructors) futureWithResult:afterDelay:unless:]_block_invoke.46
+__66+[TOCFuture(MoreConstructors) futureWithResult:afterDelay:unless:]_block_invoke
+__67+[TOCFuture(MoreConstructors) futureFromOperation:invokedOnThread:]_block_invoke
+__69+[TOCFuture(MoreConstructors) futureFromOperation:dispatchedOnQueue:]_block_invoke
++[TOCFuture futureWithResult:]
++[TOCFuture futureWithFailure:]
++[TOCFuture _ForSource_completableFutureWithCompletionToken:]
+-[TOCFuture _getInitCycleNode]
+-[TOCFuture _ForSource_tryStartUnwrapping:]
+-[TOCFuture _ForSource_forceUnwrapToComplete:]
+-[TOCFuture _ForSource_tryComplete:succeeded:]
+-[TOCFuture _trySetOrComplete:succeeded:isUnwiring:]
+-[TOCFuture cancelledOnCompletionToken]
+-[TOCFuture state]
+-[TOCFuture isIncomplete]
+-[TOCFuture hasResult]
+-[TOCFuture hasFailed]
+-[TOCFuture hasFailedWithCancel]
+-[TOCFuture hasFailedWithTimeout]
+-[TOCFuture forceGetResult]
+-[TOCFuture forceGetFailure]
+-[TOCFuture finallyDo:unless:]
+___30-[TOCFuture finallyDo:unless:]_block_invoke
+-[TOCFuture thenDo:unless:]
+___27-[TOCFuture thenDo:unless:]_block_invoke
+___copy_helper_block_.63
+___destroy_helper_block_.64
+-[TOCFuture catchDo:unless:]
+___28-[TOCFuture catchDo:unless:]_block_invoke
+___copy_helper_block_.68
+___destroy_helper_block_.69
+-[TOCFuture finally:unless:]
+___28-[TOCFuture finally:unless:]_block_invoke
+___copy_helper_block_.78
+___destroy_helper_block_.79
+-[TOCFuture then:unless:]
+___25-[TOCFuture then:unless:]_block_invoke
+___copy_helper_block_.87
+___destroy_helper_block_.88
+-[TOCFuture catch:unless:]
+___26-[TOCFuture catch:unless:]_block_invoke
+-[TOCFuture description]
+-[TOCFuture isEqual:]
+-[TOCFuture isEqualToFuture:]
+-[TOCFuture hash]
+-[TOCFuture .cxx_destruct]
+-[TOCFutureSource init]
++[TOCFutureSource futureSourceUntil:]
+___37+[TOCFutureSource futureSourceUntil:]_block_invoke
+___copy_helper_block_.161
+___destroy_helper_block_.162
+-[TOCFutureSource _trySetAndFlattenResult:]
+___43-[TOCFutureSource _trySetAndFlattenResult:]_block_invoke
+___copy_helper_block_.168
+___destroy_helper_block_.169
+-[TOCFutureSource _tryComplete:succeeded:]
+-[TOCFutureSource trySetResult:]
+-[TOCFutureSource trySetFailure:]
+-[TOCFutureSource trySetFailedWithCancel]
+-[TOCFutureSource trySetFailedWithTimeout]
+-[TOCFutureSource forceSetResult:]
+-[TOCFutureSource forceSetFailure:]
+-[TOCFutureSource forceSetFailedWithCancel]
+-[TOCFutureSource forceSetFailedWithTimeout]
+-[TOCFutureSource description]
+-[TOCFutureSource future]
+-[TOCFutureSource .cxx_destruct]
+_getSharedCycleDetectionLock
+___getSharedCycleDetectionLock_block_invoke
+_OBJC_IVAR_$_TOCFuture._completionToken
+_OBJC_IVAR_$_TOCFuture._ifDoneHasSucceeded
+_OBJC_IVAR_$_TOCFuture._value
+_OBJC_IVAR_$_TOCFuture._cycleNode
+_OBJC_IVAR_$_TOCFuture._hasBeenSet
+___block_descriptor_tmp.65
+___block_descriptor_tmp.70
+___block_descriptor_tmp.89
+___block_descriptor_tmp.94
+_OBJC_IVAR_$_TOCFutureSource._cancelledOnCompletedSource_ClearedOnSet
+_OBJC_IVAR_$_TOCFutureSource.future
+___block_descriptor_tmp.163
+___block_descriptor_tmp.170
+_getSharedCycleDetectionLock.once
+_getSharedCycleDetectionLock.lock
+___block_descriptor_tmp.203
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/TOCFutureAndSource.m
+__getSharedCycleDetectionLock_block_invoke
+getSharedCycleDetectionLock
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/TOCFutureAndSource.h
+__43-[TOCFutureSource _trySetAndFlattenResult:]_block_invoke
+__37+[TOCFutureSource futureSourceUntil:]_block_invoke
+__26-[TOCFuture catch:unless:]_block_invoke
+__25-[TOCFuture then:unless:]_block_invoke
+__28-[TOCFuture finally:unless:]_block_invoke
+__28-[TOCFuture catchDo:unless:]_block_invoke
+__27-[TOCFuture thenDo:unless:]_block_invoke
+__30-[TOCFuture finallyDo:unless:]_block_invoke
+-[TOCTimeout description]
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/ObjC-CollapsingFutures/src/TOCTimeout.m
+/Users/elland/Library/Developer/Xcode/DerivedData/CollapsingFutures-frbboahmpqopoacaakxtzqfjhglx/Build/Intermediates/CollapsingFutures.build/Release-iphoneos/CollapsingFutures.build/DerivedSources/CollapsingFutures_vers.c

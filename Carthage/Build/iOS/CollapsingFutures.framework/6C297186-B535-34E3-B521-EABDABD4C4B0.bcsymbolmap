@@ -1,0 +1,12 @@
+BCSymbolMap Version: 2.0
+-[UFDisjointSetNode init]
+-[UFDisjointSetNode currentRepresentative]
+-[UFDisjointSetNode unionWith:]
+-[UFDisjointSetNode isInSameSetAs:]
+-[UFDisjointSetNode .cxx_destruct]
+_OBJC_IVAR_$_UFDisjointSetNode._parent
+_OBJC_IVAR_$_UFDisjointSetNode._rank
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/UnionFind-ObjC/src/UFDisjointSetNode.m
+/Users/elland/Documents/bb/ObjC-CollapsingFutures/Carthage/Checkouts/UnionFind-ObjC
+/Users/elland/Library/Developer/Xcode/DerivedData/UnionFind-eocfuxgodwqqenbjnixolgwgrcab/Build/Intermediates/UnionFind.build/Release-iphoneos/UnionFindiOS.build/DerivedSources/UnionFindiOS_vers.c
