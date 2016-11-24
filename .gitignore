@@ -12,5 +12,7 @@ build/*
 *.xcworkspace
 xcuserdata
 
+Checkouts
+
 #Exclude pods
 Pods/*
