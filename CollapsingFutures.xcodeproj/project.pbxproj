@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7DE84D3FE62647EC9C5D71FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AEC4DB01C146D48E850BE7 /* libPods.a */; };
+		4F7105EAD938FC06707B7D65 /* libPods-CollapsingFutures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6317019E8C57341DA31289D /* libPods-CollapsingFutures.a */; };
+		8B68AC825923342FC3B36821 /* libPods-CollapsingFuturesLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A918908E9EF9E7D75EAEEE1C /* libPods-CollapsingFuturesLib.a */; };
+		9F2346541DE716B6003C6FCA /* CollapsingFuturesFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2346521DE716B6003C6FCA /* CollapsingFuturesFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F2346591DE7173E003C6FCA /* libUnionFind-iOS10.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2346581DE7173E003C6FCA /* libUnionFind-iOS10.1.a */; };
 		A109021D18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m in Sources */ = {isa = PBXBuildFile; fileRef = A109021C18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m */; };
 		A109022118613E8F004B7A56 /* TOCInternal_OnDeallocObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A109022018613E8F004B7A56 /* TOCInternal_OnDeallocObject.m */; };
 		A1090224186145ED004B7A56 /* TOCCancelToken+MoreConstructorsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1090223186145ED004B7A56 /* TOCCancelToken+MoreConstructorsTest.m */; };
@@ -40,7 +43,6 @@
 		A1A134F018BD8C2F0067ECB0 /* TOCInternal_OnDeallocObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A109022018613E8F004B7A56 /* TOCInternal_OnDeallocObject.m */; };
 		A1A134F118BD8C2F0067ECB0 /* TOCInternal_Racer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1209B42180F4A9300D6831C /* TOCInternal_Racer.m */; };
 		A1B6BF261810F04900226FE5 /* TOCInternal_BlockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6BF251810F04900226FE5 /* TOCInternal_BlockObject.m */; };
-		BA69685D31B3433D8AEDE4FA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AEC4DB01C146D48E850BE7 /* libPods.a */; };
 		BFD8DA6E19400F16002D37B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD8DA6D19400F16002D37B7 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +69,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4F43A5218EDA44E9AEE40B77 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		606B045FBE1AEAFD9A60DCB7 /* Pods-CollapsingFutures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsingFutures.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollapsingFutures/Pods-CollapsingFutures.debug.xcconfig"; sourceTree = "<group>"; };
+		72EA2CFCD6329AB5694A5D52 /* Pods-CollapsingFuturesLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsingFuturesLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollapsingFuturesLib/Pods-CollapsingFuturesLib.debug.xcconfig"; sourceTree = "<group>"; };
+		9F2346501DE716B6003C6FCA /* CollapsingFutures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollapsingFutures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2346521DE716B6003C6FCA /* CollapsingFuturesFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollapsingFuturesFramework.h; sourceTree = "<group>"; };
+		9F2346531DE716B6003C6FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2346581DE7173E003C6FCA /* libUnionFind-iOS10.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUnionFind-iOS10.1.a"; path = "Pods/../build/Debug-iphoneos/UnionFind-iOS10.1/libUnionFind-iOS10.1.a"; sourceTree = "<group>"; };
 		A109021B18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TOCCancelToken+MoreConstructors.h"; sourceTree = "<group>"; };
 		A109021C18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TOCCancelToken+MoreConstructors.m"; sourceTree = "<group>"; };
 		A109021F18613E8F004B7A56 /* TOCInternal_OnDeallocObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCInternal_OnDeallocObject.h; sourceTree = "<group>"; };
@@ -91,7 +98,7 @@
 		A1209B4E180F4F4600D6831C /* TOCInternal_Array+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TOCInternal_Array+Functional.m"; sourceTree = "<group>"; };
 		A1209B51181084FD00D6831C /* TOCTimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCTimeout.h; sourceTree = "<group>"; };
 		A1209B52181084FD00D6831C /* TOCTimeout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCTimeout.m; sourceTree = "<group>"; };
-		A19E0C3817DBB27B00A5FD69 /* libCollapsingFutures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCollapsingFutures.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19E0C3817DBB27B00A5FD69 /* libCollapsingFuturesLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCollapsingFuturesLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19E0C3B17DBB27B00A5FD69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A19E0C4917DBB27B00A5FD69 /* CollapsingFuturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsingFuturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A019671807641000A052A6 /* TOCFuture+MoreConstructorsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TOCFuture+MoreConstructorsTest.m"; sourceTree = "<group>"; };
@@ -106,17 +113,29 @@
 		A1B6BF241810F04900226FE5 /* TOCInternal_BlockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCInternal_BlockObject.h; sourceTree = "<group>"; };
 		A1B6BF251810F04900226FE5 /* TOCInternal_BlockObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCInternal_BlockObject.m; sourceTree = "<group>"; };
 		A1E4235818C2760D00A15F74 /* CollapsingFutures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollapsingFutures.h; sourceTree = "<group>"; };
-		B5AEC4DB01C146D48E850BE7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A543A9FEBDAF34337E93480E /* Pods-CollapsingFuturesLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsingFuturesLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollapsingFuturesLib/Pods-CollapsingFuturesLib.release.xcconfig"; sourceTree = "<group>"; };
+		A6317019E8C57341DA31289D /* libPods-CollapsingFutures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CollapsingFutures.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A918908E9EF9E7D75EAEEE1C /* libPods-CollapsingFuturesLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CollapsingFuturesLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD8DA6D19400F16002D37B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C982485DB1A023340A6F6723 /* Pods-CollapsingFutures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsingFutures.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollapsingFutures/Pods-CollapsingFutures.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9F23464C1DE716B6003C6FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2346591DE7173E003C6FCA /* libUnionFind-iOS10.1.a in Frameworks */,
+				4F7105EAD938FC06707B7D65 /* libPods-CollapsingFutures.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A19E0C3517DBB27B00A5FD69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A19E0C3C17DBB27B00A5FD69 /* Foundation.framework in Frameworks */,
-				7DE84D3FE62647EC9C5D71FE /* libPods.a in Frameworks */,
+				8B68AC825923342FC3B36821 /* libPods-CollapsingFuturesLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,13 +145,32 @@
 			files = (
 				BFD8DA6E19400F16002D37B7 /* XCTest.framework in Frameworks */,
 				A19E0C4E17DBB27B00A5FD69 /* Foundation.framework in Frameworks */,
-				BA69685D31B3433D8AEDE4FA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17E75C93626103409BB97DFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				606B045FBE1AEAFD9A60DCB7 /* Pods-CollapsingFutures.debug.xcconfig */,
+				C982485DB1A023340A6F6723 /* Pods-CollapsingFutures.release.xcconfig */,
+				72EA2CFCD6329AB5694A5D52 /* Pods-CollapsingFuturesLib.debug.xcconfig */,
+				A543A9FEBDAF34337E93480E /* Pods-CollapsingFuturesLib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F2346511DE716B6003C6FCA /* CollapsingFuturesFramework */ = {
+			isa = PBXGroup;
+			children = (
+				9F2346521DE716B6003C6FCA /* CollapsingFuturesFramework.h */,
+				9F2346531DE716B6003C6FCA /* Info.plist */,
+			);
+			path = CollapsingFuturesFramework;
+			sourceTree = "<group>";
+		};
 		A1209B3C180F4A7800D6831C /* internal */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,19 +190,21 @@
 		A19E0C2F17DBB27B00A5FD69 = {
 			isa = PBXGroup;
 			children = (
+				9F2346511DE716B6003C6FCA /* CollapsingFuturesFramework */,
 				A19E0C3A17DBB27B00A5FD69 /* Frameworks */,
 				A19E0C3917DBB27B00A5FD69 /* Products */,
 				A1A019C5180774B600A052A6 /* src */,
 				A1A019621807641000A052A6 /* test */,
-				4F43A5218EDA44E9AEE40B77 /* Pods.xcconfig */,
+				17E75C93626103409BB97DFF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		A19E0C3917DBB27B00A5FD69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A19E0C3817DBB27B00A5FD69 /* libCollapsingFutures.a */,
+				A19E0C3817DBB27B00A5FD69 /* libCollapsingFuturesLib.a */,
 				A19E0C4917DBB27B00A5FD69 /* CollapsingFuturesTests.xctest */,
+				9F2346501DE716B6003C6FCA /* CollapsingFutures.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,9 +212,11 @@
 		A19E0C3A17DBB27B00A5FD69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F2346581DE7173E003C6FCA /* libUnionFind-iOS10.1.a */,
 				BFD8DA6D19400F16002D37B7 /* XCTest.framework */,
 				A19E0C3B17DBB27B00A5FD69 /* Foundation.framework */,
-				B5AEC4DB01C146D48E850BE7 /* libPods.a */,
+				A6317019E8C57341DA31289D /* libPods-CollapsingFutures.a */,
+				A918908E9EF9E7D75EAEEE1C /* libPods-CollapsingFuturesLib.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,36 +272,65 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9F23464D1DE716B6003C6FCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2346541DE716B6003C6FCA /* CollapsingFuturesFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		A19E0C3717DBB27B00A5FD69 /* CollapsingFutures */ = {
+		9F23464F1DE716B6003C6FCA /* CollapsingFutures */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A19E0C5D17DBB27B00A5FD69 /* Build configuration list for PBXNativeTarget "CollapsingFutures" */;
+			buildConfigurationList = 9F2346571DE716B6003C6FCA /* Build configuration list for PBXNativeTarget "CollapsingFutures" */;
 			buildPhases = (
-				5F57C8AB77184E7A977B5B6B /* Check Pods Manifest.lock */,
-				A19E0C3417DBB27B00A5FD69 /* Sources */,
-				A19E0C3517DBB27B00A5FD69 /* Frameworks */,
-				A19E0C3617DBB27B00A5FD69 /* CopyFiles */,
-				F6B83BFE906F47D9AB813C58 /* Copy Pods Resources */,
+				DE8DA45E0B761AEC32776617 /* [CP] Check Pods Manifest.lock */,
+				9F23464B1DE716B6003C6FCA /* Sources */,
+				9F23464C1DE716B6003C6FCA /* Frameworks */,
+				9F23464D1DE716B6003C6FCA /* Headers */,
+				9F23464E1DE716B6003C6FCA /* Resources */,
+				609338C332AA48B25B36A4EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CollapsingFutures;
+			productName = CollapsingFuturesFramework;
+			productReference = 9F2346501DE716B6003C6FCA /* CollapsingFutures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A19E0C3717DBB27B00A5FD69 /* CollapsingFuturesLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19E0C5D17DBB27B00A5FD69 /* Build configuration list for PBXNativeTarget "CollapsingFuturesLib" */;
+			buildPhases = (
+				9EEE7B09509683C651929038 /* [CP] Check Pods Manifest.lock */,
+				A19E0C3417DBB27B00A5FD69 /* Sources */,
+				A19E0C3517DBB27B00A5FD69 /* Frameworks */,
+				A19E0C3617DBB27B00A5FD69 /* CopyFiles */,
+				A893B4B5A196EB9C2EECE0A1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsingFuturesLib;
 			productName = CollapsingFutures;
-			productReference = A19E0C3817DBB27B00A5FD69 /* libCollapsingFutures.a */;
+			productReference = A19E0C3817DBB27B00A5FD69 /* libCollapsingFuturesLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		A19E0C4817DBB27B00A5FD69 /* CollapsingFuturesTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A19E0C6017DBB27B00A5FD69 /* Build configuration list for PBXNativeTarget "CollapsingFuturesTests" */;
 			buildPhases = (
-				696D2CCB7C3E4654B02EE784 /* Check Pods Manifest.lock */,
 				A19E0C4417DBB27B00A5FD69 /* Sources */,
 				A19E0C4517DBB27B00A5FD69 /* Frameworks */,
 				A19E0C4617DBB27B00A5FD69 /* Resources */,
 				A19E0C4717DBB27B00A5FD69 /* ShellScript */,
-				CBC7E98184DF4C38BB417F42 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,6 +351,13 @@
 				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Twisted Oak Studios";
+				TargetAttributes = {
+					9F23464F1DE716B6003C6FCA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29X3GG489T;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = A19E0C3317DBB27B00A5FD69 /* Build configuration list for PBXProject "CollapsingFutures" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -293,13 +371,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A19E0C3717DBB27B00A5FD69 /* CollapsingFutures */,
+				A19E0C3717DBB27B00A5FD69 /* CollapsingFuturesLib */,
 				A19E0C4817DBB27B00A5FD69 /* CollapsingFuturesTests */,
+				9F23464F1DE716B6003C6FCA /* CollapsingFutures */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9F23464E1DE716B6003C6FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A19E0C4617DBB27B00A5FD69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,34 +396,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5F57C8AB77184E7A977B5B6B /* Check Pods Manifest.lock */ = {
+		609338C332AA48B25B36A4EC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollapsingFutures/Pods-CollapsingFutures-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		696D2CCB7C3E4654B02EE784 /* Check Pods Manifest.lock */ = {
+		9EEE7B09509683C651929038 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A19E0C4717DBB27B00A5FD69 /* ShellScript */ = {
@@ -353,39 +439,46 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		CBC7E98184DF4C38BB417F42 /* Copy Pods Resources */ = {
+		A893B4B5A196EB9C2EECE0A1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollapsingFuturesLib/Pods-CollapsingFuturesLib-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6B83BFE906F47D9AB813C58 /* Copy Pods Resources */ = {
+		DE8DA45E0B761AEC32776617 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9F23464B1DE716B6003C6FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A19E0C3417DBB27B00A5FD69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,12 +528,106 @@
 /* Begin PBXTargetDependency section */
 		A19E0C5017DBB27B00A5FD69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A19E0C3717DBB27B00A5FD69 /* CollapsingFutures */;
+			target = A19E0C3717DBB27B00A5FD69 /* CollapsingFuturesLib */;
 			targetProxy = A19E0C4F17DBB27B00A5FD69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		9F2346551DE716B6003C6FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606B045FBE1AEAFD9A60DCB7 /* Pods-CollapsingFutures.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 29X3GG489T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = CollapsingFuturesFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/UnionFind-iOS10.1",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.CollapsingFuturesFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F2346561DE716B6003C6FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C982485DB1A023340A6F6723 /* Pods-CollapsingFutures.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 29X3GG489T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = CollapsingFuturesFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/UnionFind-iOS10.1",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.CollapsingFuturesFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A19E0C5B17DBB27B00A5FD69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -575,7 +762,7 @@
 		};
 		A19E0C5E17DBB27B00A5FD69 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F43A5218EDA44E9AEE40B77 /* Pods.xcconfig */;
+			baseConfigurationReference = 72EA2CFCD6329AB5694A5D52 /* Pods-CollapsingFuturesLib.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/CollapsingFutures.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -586,7 +773,7 @@
 		};
 		A19E0C5F17DBB27B00A5FD69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F43A5218EDA44E9AEE40B77 /* Pods.xcconfig */;
+			baseConfigurationReference = A543A9FEBDAF34337E93480E /* Pods-CollapsingFuturesLib.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/CollapsingFutures.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -597,7 +784,6 @@
 		};
 		A19E0C6117DBB27B00A5FD69 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F43A5218EDA44E9AEE40B77 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -613,7 +799,6 @@
 		};
 		A19E0C6217DBB27B00A5FD69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F43A5218EDA44E9AEE40B77 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -630,6 +815,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9F2346571DE716B6003C6FCA /* Build configuration list for PBXNativeTarget "CollapsingFutures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2346551DE716B6003C6FCA /* Debug */,
+				9F2346561DE716B6003C6FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A19E0C3317DBB27B00A5FD69 /* Build configuration list for PBXProject "CollapsingFutures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -639,7 +833,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A19E0C5D17DBB27B00A5FD69 /* Build configuration list for PBXNativeTarget "CollapsingFutures" */ = {
+		A19E0C5D17DBB27B00A5FD69 /* Build configuration list for PBXNativeTarget "CollapsingFuturesLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A19E0C5E17DBB27B00A5FD69 /* Debug */,

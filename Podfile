@@ -1,3 +1,8 @@
-link_with ['CollapsingFutures', 'CollapsingFuturesTests']
+target "CollapsingFutures" do
+  pod 'UnionFind', '~> 1.0'
+end
 
-pod 'UnionFind', '~> 1.0'
+target "CollapsingFuturesLib" do
+  pod 'UnionFind', '~> 1.0'
+end
+
