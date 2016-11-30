@@ -35,8 +35,6 @@
 		9F23468D1DE7246F003C6FCA /* TOCTimeout.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B51181084FD00D6831C /* TOCTimeout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F23468E1DE7246F003C6FCA /* TOCTypeDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A1209B45180F4B1F00D6831C /* TOCTypeDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F23468F1DE7246F003C6FCA /* TwistedOakCollapsingFutures.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A019CA180774B600A052A6 /* TwistedOakCollapsingFutures.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F2346981DE728E9003C6FCA /* UnionFindiOS.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2346941DE728E9003C6FCA /* UnionFindiOS.framework.dSYM */; };
-		9F23469A1DE728F9003C6FCA /* UnionFindiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2346931DE728E9003C6FCA /* UnionFindiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F23469B1DE72A0F003C6FCA /* UnionFindiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2346931DE728E9003C6FCA /* UnionFindiOS.framework */; };
 		A109021D18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m in Sources */ = {isa = PBXBuildFile; fileRef = A109021C18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m */; };
 		A109022118613E8F004B7A56 /* TOCInternal_OnDeallocObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A109022018613E8F004B7A56 /* TOCInternal_OnDeallocObject.m */; };
@@ -90,7 +88,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9F23469A1DE728F9003C6FCA /* UnionFindiOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,7 +110,6 @@
 		9F2346531DE716B6003C6FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F2346581DE7173E003C6FCA /* libUnionFind-iOS10.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUnionFind-iOS10.1.a"; path = "Pods/../build/Debug-iphoneos/UnionFind-iOS10.1/libUnionFind-iOS10.1.a"; sourceTree = "<group>"; };
 		9F2346931DE728E9003C6FCA /* UnionFindiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnionFindiOS.framework; path = Carthage/Build/iOS/UnionFindiOS.framework; sourceTree = SOURCE_ROOT; };
-		9F2346941DE728E9003C6FCA /* UnionFindiOS.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = UnionFindiOS.framework.dSYM; path = Carthage/Build/iOS/UnionFindiOS.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		A109021B18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TOCCancelToken+MoreConstructors.h"; sourceTree = "<group>"; };
 		A109021C18613CE4004B7A56 /* TOCCancelToken+MoreConstructors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TOCCancelToken+MoreConstructors.m"; sourceTree = "<group>"; };
 		A109021F18613E8F004B7A56 /* TOCInternal_OnDeallocObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCInternal_OnDeallocObject.h; sourceTree = "<group>"; };
@@ -203,7 +199,6 @@
 				9F2346521DE716B6003C6FCA /* CollapsingFuturesFramework.h */,
 				9F2346531DE716B6003C6FCA /* Info.plist */,
 				9F2346931DE728E9003C6FCA /* UnionFindiOS.framework */,
-				9F2346941DE728E9003C6FCA /* UnionFindiOS.framework.dSYM */,
 			);
 			path = CollapsingFuturesFramework;
 			sourceTree = "<group>";
@@ -434,7 +429,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2346981DE728E9003C6FCA /* UnionFindiOS.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
